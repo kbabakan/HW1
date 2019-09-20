@@ -1,0 +1,81 @@
+
+/* body style changes, adjusts font size of output variable */
+body{font-size:33;
+    color:white;}
+
+/* body style changes*/
+* {
+    color:black;
+    background-color: rgb(31, 29, 29)}
+
+header{
+    background-color: #5ba4ce   
+}
+.titlebar{
+    text-align:center;
+    background-color:#5ba4ce
+    }
+h1{
+    font:Arial;
+    Font-style:italic;
+    text-align:left;
+    background-color: #5ba4ce;
+    font-size: 12px;
+}
+h2{
+    text-align:Center;
+    background-color: #5ba4ce;
+    font:Arial;
+    font-size: 24;
+}
+
+label{
+    font:Arial;
+    font-size:12px ;
+    font-style:italic;
+    color:white;
+}
+
+button{
+    margin-top:10px;
+    color:white;
+    border-color:white
+}
+
+#Results{
+    margin-top:10px;
+    color: grey;
+    border-style:solid;
+    border-color:#5ba4ce;
+    text-align: center;
+    font-size: 22px;
+}
+
+.input{
+   width:60px;
+   border-color:#5ba4ce;
+   color: white;
+   margin-left:15px 
+}
+
+main{
+    width:65%;
+    float:left;
+    padding:10px;
+}
+
+aside{
+    background-color: #5ba4ce;
+    width:32%;
+    float:left;
+    padding:10px;
+    font-size: 100%;
+}
+
+#operation{
+    color:white
+}
+
+#counteroutput{
+    color:white;
+}

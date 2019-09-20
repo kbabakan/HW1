@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+        <script src='script.js'></script>
+        <link rel="stylesheet" type="text/css" href="css.css" media="screen" />
+</head>
+
+<header>
+        <h1>Kayhan Babakan<br>
+        Systems Architecture & Design<br>
+        1.125</h1>
+        <h2>The Simple Calculator</h2>
+</header>
+<body> 
+        <main>
+                
+                <form>
+                         <select id="operation">
+                                <option value="Addition">Addition</option>
+                                <option value="Subtraction">Subtratction</option>
+                                <option value="Multiplication">Multiplication</option>
+                                <option value="Division">Division</option>
+                        </select>
+                </form>
+                <div id="inpvar"> 
+                        <label>Variable x </label><input type= "number" class=input id=input1 placeholder="Enter #">
+                </div>
+
+                <div class="inpvar"> 
+                        <label>Variable y </label><input type= "number" class=input id=input2 placeholder="Enter #">
+                </div>
+        
+                <div>
+                        <button onclick="SumValue();counter();x">Find Value</button>
+                </div>
+                <div id='Results'>
+                
+                </div>
+
+                <div id='x'>
+                </div>
+
+        </main>
+        <aside>
+                Counter
+                <div id='counteroutput'>
+                </div>
+        </aside>
+</body>
+</html>
+
+
+
+
