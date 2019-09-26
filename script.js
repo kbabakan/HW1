@@ -30,12 +30,6 @@ function SumValue(){
 
 var count = 0
 
-function newFunction() {
-    var arr = [];
-    arr.push(document.getElementById("operation").innerText);
-    console.log(arr);
-}
-
 function counter(){
     count += 1; 
     document.getElementById('counteroutput').innerText = count;
